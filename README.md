@@ -1,4 +1,4 @@
-## Simple Bash script that handles application installations and customization settings for Ubuntu 18.04.
+## Simple Bash script that handles application installations, Bash aliases, and desktop customization for Ubuntu 18.04.
 
 #### Applications
 * Atom
@@ -15,10 +15,13 @@
 * QEMU KVM
 * Spotify
 * UKUU
-* VirtualBox
 * VLC
 
-#### Customization
+#### Bash aliases
+* "mdb" opens MariaDB
+* "rpi" SSHs to Raspberry Pi
+
+#### Gnome Desktop customization
 * Top bar:
   * Time set to 12h format
   * Date shown
@@ -30,6 +33,8 @@
   * Only spans the length of favorited/opened applications
   * Downloads and sets Numix Circle icons
 
+#### Miscellaneous
+* Set Nano's tabsize to 4 spaces
 
 ## Running the script
 1. $ chmod +x setup.sh
@@ -39,5 +44,6 @@
 ## Things to manually install/configure
 * [Android Studio](https://developer.android.com/studio/)
 * [Jetbrains Toolbox](https://www.jetbrains.com/toolbox/)
+* [MariaDB](https://linuxize.com/post/how-to-install-mariadb-on-ubuntu-18-04/)
 * [Unite Shell](https://github.com/hardpixel/unite-shell/blob/master/README.md)
 * Custom keyboard shortcuts (file explorer, calculator)

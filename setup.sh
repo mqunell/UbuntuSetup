@@ -14,6 +14,10 @@ echo "--- Installing applications ---"
 sudo apt install -y atom calibre dconf-tools filezilla git gnome-tweak-tool nautilus-dropbox numix-icon-theme-circle python-pip python3-pip qemu-kvm ukuu vlc
 sudo snap install discord gimp libreoffice spotify
 
+# Bash aliases
+echo "alias mdb=\"sudo mysql -u root -p\"" >> ~/.bash_aliases
+echo "alias rpi=\"ssh pi@192.168.0.101\"" >> ~/.bash_aliases
+
 # Gnome desktop customization
 echo "--- Customizing desktop ---"
 gsettings set org.gnome.desktop.interface clock-format '12h'
@@ -23,3 +27,6 @@ gsettings set org.gnome.desktop.wm.preferences button-layout 'close,minimize,max
 gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed false
 gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
 gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
+
+# Miscellaneous
+echo "set tabsize 4" >> ~/.nanorc
