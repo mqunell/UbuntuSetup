@@ -1,4 +1,4 @@
-## Simple Bash script that handles application installations, Bash aliases, and desktop customization for Ubuntu 18.04.
+## Simple Bash script that handles application installations, Bash aliases, and GNOME 3 customization for Ubuntu 18.04.
 
 #### Applications
 * Atom
@@ -9,7 +9,7 @@
 * Filezilla
 * Gimp
 * Git
-* Gnome Tweak Tool
+* GNOME Tweak Tool
 * Libreoffice
 * Python pip and pip3
 * QEMU KVM
@@ -21,7 +21,7 @@
 * "mdb" opens MariaDB
 * "rpi" SSHs to Raspberry Pi
 
-#### Gnome Desktop customization
+#### GNOME 3 customization
 * Top bar:
   * Time set to 12h format
   * Date shown
