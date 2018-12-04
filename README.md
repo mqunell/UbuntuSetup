@@ -11,6 +11,7 @@
 * Git
 * GNOME Tweak Tool
 * Libreoffice
+* Open JDK 11
 * Python pip and pip3
 * QEMU KVM
 * Spotify
@@ -26,7 +27,7 @@
   * Time set to 12h format
   * Date shown
 * Windows:
-  * The close, minimize, and maximize buttons (in that order) are moved to the left side of windows 
+  * The close, minimize, and maximize buttons (in that order) are moved to the left side of windows
 * Dock:
   * Moved to the bottom
   * Autohides when a window is open
