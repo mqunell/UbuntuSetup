@@ -15,6 +15,7 @@ sudo apt install -y atom calibre dconf-tools filezilla git gnome-tweak-tool naut
 sudo snap install discord gimp libreoffice spotify telegram-desktop
 
 # Bash aliases
+echo "alias adb_reset=\"cd ~/Android/Sdk/platform-tools/; ./adb kill-server; sudo ./adb devices\"" >> ~/.bash_aliases
 echo "alias mdb=\"sudo mysql -u root -p\"" >> ~/.bash_aliases
 echo "alias rpi=\"ssh pi@192.168.0.101\"" >> ~/.bash_aliases
 

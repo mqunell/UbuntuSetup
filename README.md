@@ -22,6 +22,7 @@ Simple Bash script that handles application installations, Bash aliases, and GNO
 * VLC
 
 <b>Bash aliases</b>:
+* "adb_reset" resets the ADB daemon (for when Android Studio displays devices as null)
 * "mdb" opens MariaDB
 * "rpi" SSHs to Raspberry Pi
 
